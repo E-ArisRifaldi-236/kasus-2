@@ -7,7 +7,7 @@ int main (){
   string jenis[20];
   int pilih1,bayar,kembalian,harga,total,menu,jarak;
   float diskon;
-	cout << "RUMAH MAKAN SEDERHANA" << endl;
+	cout << "RUMAH MAKAN LARIS" << endl;
   cout << "========================" << endl;
   cout << "\nMenu Makanan dan Harga : " << endl;
   cout << "\n1. Ayam Geprek  : Rp21.000" << endl;
@@ -17,7 +17,7 @@ int main (){
   cout << "5. Ayam Bakar   : Rp25.000" << endl;
   ofstream hsl;
   hsl.open("struct.txt", ios::out);
-  hsl << "RUMAH MAKAN SEDERHANA" << endl;
+  hsl << "RUMAH MAKAN LARIS" << endl;
   hsl << "========================" << endl;
   hsl << "\nMenu Makanan dan Harga : " << endl;
   hsl << "\n1. Ayam Geprek  : Rp21.000" << endl;
